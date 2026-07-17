@@ -17,4 +17,7 @@
 -- Write in English or Thai. Do not skip this step.
 --
 -- Your thinking:
---
+--ดูตาราง ออเดอร์  
+--สร้างเงื่อนไข เพื่อให้ แสดงราคาที่กำหนด
+
+select SUM(total_price) AS total_revenue from orders

@@ -18,11 +18,9 @@
 -- Write in English or Thai. Do not skip this step.
 --
 -- Your thinking:
---
+--เรียกข้อมูล
 
-SELECT o.order_date, o.total_price
-FROM orders o
-JOIN staff s
-    ON o.staff_id = s.staff_id
-WHERE s.first_name = 'Jane'
-  AND s.last_name = 'Doe';
+select order_date, total_price from orders
+inner join staff
+on orders.staff_id = staff.staff_id
+WHERE first_name = 'Jane' and last_name = 'Doe'

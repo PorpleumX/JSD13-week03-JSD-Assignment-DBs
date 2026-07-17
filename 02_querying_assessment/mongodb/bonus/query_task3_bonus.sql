@@ -17,4 +17,8 @@
 -- Write in English or Thai. Do not skip this step.
 --
 -- Your thinking:
---
+--ดึงตาราง ส่วนผสมออกมา เพื่อดูลิสรายการ
+--เขียนเงื่อนไข เพื่อให้แสดงรายการที่มากกว่า หรือเท่ากับ 100
+
+select * from ingredients
+WHERE stock_level >= 100
