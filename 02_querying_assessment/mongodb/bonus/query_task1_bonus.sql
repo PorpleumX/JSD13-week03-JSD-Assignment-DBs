@@ -17,4 +17,9 @@
 -- Write in English or Thai. Do not skip this step.
 --
 -- Your thinking:
---
+--เรียกตาราง เมนูอาหารเพื่อน ดูข้อมูล
+--เขียนเงื่อนไข เพื่อให้แสดงตาราง ตามที่ต้องการ
+
+SELECT  m.name, m.price, m.category
+from MenuItems m
+where m.category='Side'
