@@ -17,4 +17,10 @@
 -- Write in English or Thai. Do not skip this step.
 --
 -- Your thinking:
---
+--1.เรียกดาต้า suppliers เพื่อดูซับพลายไอดี และ  ดาต้า ingredients เพื่อดูดาต้าที่มาจากซัพพลายเออที่มาจาก Freshest Farm Produc
+--2.กรองข้อมูลเพื่อแสดงข้อมูลที่ต้องการ คือ วัตถุดิบและซัพพายเออ
+
+SELECT i.ingredient_id, i.name , su.name
+FROM ingredients i  
+join suppliers su  ON i.supplier_id = su.supplier_id 
+Where  i.supplier_id= 3

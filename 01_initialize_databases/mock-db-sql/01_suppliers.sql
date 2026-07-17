@@ -9,4 +9,4 @@ INSERT INTO Suppliers (supplier_id, name, contact_person, phone_number) VALUES
 
 
 SELECT *
-FROM Suppliers;
+FROM Suppliers

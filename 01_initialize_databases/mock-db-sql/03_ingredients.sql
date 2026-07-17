@@ -16,4 +16,4 @@ INSERT INTO Ingredients (ingredient_id, name, stock_level, unit, supplier_id) VA
 
 
 SELECT *
-from ingredients;
+from ingredients
